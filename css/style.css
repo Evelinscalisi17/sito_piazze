@@ -582,7 +582,7 @@ header nav ul{
 
   .footer_contenitore{
     padding: 40px 20px;
-    max-width: 90%;
+    max-width: 70%;
 }
 
   .footer_text{
@@ -600,7 +600,7 @@ header nav ul{
   }
 
 footer img{
-    max-width: 120px;
+    max-width: 70px;
 }
 
 .title{
