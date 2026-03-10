@@ -175,7 +175,7 @@ header a:hover{
 
 .info_text h2 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
+    font-size: 40px;
      margin: 0% auto;
      color: #E9CA31;
 }
@@ -565,7 +565,7 @@ header nav ul{
 
     .info_text p {
         font-size: 17px;
-        line-height: 0.5;
+        margin-top: 15px;
     }
 
   .footer_contenitore{
