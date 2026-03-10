@@ -40,7 +40,7 @@ header {
 }
 header p {
     margin: 0;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bolder;
 
 }
@@ -51,7 +51,7 @@ header nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 header a {
@@ -68,7 +68,7 @@ header a:hover{
     padding: 100px 0;
    text-align: center;
    font-family: 'Times New Roman', Times, serif;
-   font-size: 100px;
+   font-size: 64px;
 }
 
 .hero_text h1 {
@@ -137,7 +137,7 @@ header a:hover{
 
 .card_text h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
+    font-size: 26px;
 }
 
 .card_text p{
@@ -505,15 +505,19 @@ header nav ul{
    display: flex;
    justify-content: space-between;
     gap: 20px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
-   
+   .header p a{
+    font-size: 14px;
+   }
+
+
     .hero {
         padding: 60px 20px; 
     }
     .hero_text h1 {
-        font-size: 12vw;
+        font-size: 24px;
     }
 
    
@@ -531,11 +535,11 @@ header nav ul{
     }
 
     .card_text h2 {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .card_text p {
-        font-size: 16px; 
+        font-size: 17px; 
     }
 
     .card_text a{
