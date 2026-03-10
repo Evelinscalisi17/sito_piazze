@@ -238,12 +238,13 @@ footer{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 50px 0 50px 0;
-    margin-top: 20px;
+    align-items: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
 }
-footer h3{
+footer h3, .footer_text p{
     color: #ffffff;
-    margin-bottom: 7px;
+    margin: 5px 0;
     font-size: 20px;
 }
 
@@ -253,8 +254,9 @@ footer p{
 }
 
 footer img{
-    max-width: 20%;
-    object-fit: scale-down;
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
 }
 
 
@@ -582,11 +584,11 @@ header nav ul{
 
   .footer_contenitore{
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 30px;
     padding: 40px 20px;
-    max-width: 90%;
+    gap:20px
 }
 
   .footer_text{
@@ -597,6 +599,7 @@ header nav ul{
 
   .footer_text p{
     font-size: 11px;
+    margin: 3px 0;
   }
 
   .footer_text h3{
@@ -604,7 +607,7 @@ header nav ul{
   }
 
 footer img{
-    max-width: 50px;
+    max-width: 80px;
 }
 
 .title{
